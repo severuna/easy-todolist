@@ -1,0 +1,18 @@
+.task-list {
+    list-style: none;
+    padding: 0;
+  }
+  .list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .square {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .task-list__fallback {
+    color: #fefae1;
+    text-align: center;
+  }
